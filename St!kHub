@@ -21,6 +21,6 @@ print("✅ Whitelisted | Loading Infinity - Hub...")
 --// 🚀 LOAD YOUR SCRIPT
 pcall(function()
     loadstring(game:HttpGet(
-        "https://raw.githubusercontent.com/StikFur/Infinity-Hub---1.7.5/refs/heads/main/St!kHub"
+        "https://raw.githubusercontent.com/StikFur/Infinity-Hub---1.7.6-MainScript/refs/heads/main/St!kHub"
     ))()
 end)
