@@ -1,0 +1,26 @@
+--// SERVICES
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+--// 🔒 USERID WHITELIST
+local Whitelist = {
+    [9693065023] = true, -- YOUR UserId (replace)
+    [4674698402] = true, -- Friend (optional)
+}
+
+--// 🛑 WHITELIST CHECK
+if not Whitelist[LocalPlayer.UserId] then
+    warn("❌ Access Denied | Not Whitelisted")
+    LocalPlayer:Kick("You are not whitelisted to use Infinity - Hub.")
+    return
+end
+
+--// ✅ ACCESS GRANTED
+print("✅ Whitelisted | Loading Infinity - Hub...")
+
+--// 🚀 LOAD YOUR SCRIPT
+pcall(function()
+    loadstring(game:HttpGet(
+        "https://raw.githubusercontent.com/StikFur/Infinity-Hub---1.7.5/refs/heads/main/St!kHub"
+    ))()
+end)
