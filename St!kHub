@@ -5,9 +5,10 @@ local LocalPlayer = Players.LocalPlayer
 --// 🔒 USERID WHITELIST
 local Whitelist = {
     [9693065023] = true, -- Stik
-    [10416053693] = true, -- Stik alt
     [4674698402] = true, -- Kiara (me love)
     [4897015004] = true, -- Drew
+    [10416053693] = true, -- Stik alt
+
 }
 
 --// 🛑 WHITELIST CHECK
