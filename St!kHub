@@ -8,6 +8,7 @@ local Whitelist = {
     [10425314575] = true, -- Stik alt
     [4674698402] = true, -- Kiara (me love)
     [4897015004] = true, -- Drew
+    [10401650019] = true, -- Mafia Member (Mane)
 
 }
 
