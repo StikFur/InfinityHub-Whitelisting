@@ -6,9 +6,10 @@ local LocalPlayer = Players.LocalPlayer
 local Whitelist = {
     [9693065023] = true, -- Stik
     [10425314575] = true, -- Stik alt
-    [4674698402] = true, -- Kiara (me love)
+    [4674698402] = true, -- Kiara
     [4897015004] = true, -- Drew
     [10401650019] = true, -- Mafia Member (Mane)
+    [10429099415] = true, -- Mafia Member (Mane Alt)
     [3365883744] = true, -- ZI Member (Tuffest)
 
 }
